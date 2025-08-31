@@ -1,6 +1,6 @@
 # Crestron Flex – Guided Selling (Demo)
 
-A Gradio web app that recommends Crestron Flex products for meeting rooms, generates a client‑ready PDF summary, and simulates a Salesforce “Get Quote” hand‑off via CSV. Designed as a polished interview/demo artifact.
+A ChatGPT wrapper that takes a shoppers prompt and combs Crestron's website for products that match their use case.  It also provides a description of why the product is needed to help coach shoppers on a relatively complex setof products.  Then generates a client‑ready PDF summary, and simulates a Salesforce “Get Quote” hand‑off via CSV. Designed as a polished interview/demo artifact.
 
 > **Tech highlights:** Gradio UI, OpenAI chat completions, product URL + image resolution (Crestron catalog + Widen CDN scraping), CSV “lead” sink, ReportLab PDF generation, and custom CSS.
 
